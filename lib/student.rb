@@ -1,7 +1,7 @@
 class Student < User
 
   def initialize
-    @knowledge=[]  
+    @knowledge=[]
   end
 
   def learn(knowledge)
@@ -11,5 +11,5 @@ class Student < User
   def knowledge
     @knowledge
   end
-  
+
 end
